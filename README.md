@@ -110,5 +110,14 @@ Financial literacy is a critical skill. Whether you're a student, investor, or p
 **Start your financial analysis journey today!**
 
 ---
+## Author
 
+**Name:** Ankit Kumar  
+**Role:** Product Manager & Developer focused on fintech, financial literacy, and AI-driven tools  
+
+
+**GitHub:** [@Ank576](https://github.com/Ank576)  
+**Contact:** *[Email](ankit.saxena76@nmims.edu.in)*
+
+If you find this repository helpful, feel free to ⭐ the project or open an issue with suggestions and ideas.
 *Last Updated: January 2026*
