@@ -107,6 +107,45 @@ This repository is open for educational use. Please check the LICENSE file for d
 
 Financial literacy is a critical skill. Whether you're a student, investor, or professional, understanding financial statements opens doors to better decision-making and financial independence.
 
+
+## 📦 Tools & Interactive Apps
+
+### 📈 Stock Candlestick Viewer
+
+**Interactive NSE stock analysis with technical indicators**
+
+A powerful Streamlit application for analyzing Indian stock market data with professional-grade technical analysis.
+
+**Features:**
+- 🝯️ Real-time candlestick charts with interactive Plotly visualizations
+- 📊 Three-panel layout: Price & Volume | RSI | MACD indicators
+- ⏹️ Flexible timeframes: 1 month to 5 years
+- 💱 Intraday support: Daily, hourly, 30-minute, 15-minute intervals
+- 🔍 Zoom, pan, and hover tooltips for detailed analysis
+- ⚡ Fast data loading with cached data
+- 💹 Metrics dashboard: Current price, change %, 52-week high/low
+- 🌛 Customizable indicators (RSI & MACD toggle)
+
+**Perfect for:**
+- Day traders and swing traders
+- Financial analysts and portfolio managers
+- Students learning technical analysis
+- Fintech developers integrating market data
+
+**Tech Stack:** Streamlit • Plotly • yfinance • pandas • numpy
+
+**Get Started:**
+```bash
+cd stock-candlestick-viewer
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+**Documentation:** See [Stock Candlestick Viewer README](./stock-candlestick-viewer/README.md) for detailed usage guide, technical indicator explanations, and real-world trading examples.
+
+**Educational Disclaimer:** This tool is for educational purposes only. Not financial advice. Always consult a qualified financial advisor before making investment decisions.
+
+---
 **Start your financial analysis journey today!**
 
 ---
