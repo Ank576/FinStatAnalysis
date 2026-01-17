@@ -146,6 +146,45 @@ streamlit run app.py
 **Educational Disclaimer:** This tool is for educational purposes only. Not financial advice. Always consult a qualified financial advisor before making investment decisions.
 
 ---
+
+### 📊 OHLC Fundamentals Plot
+
+**Technical OHLC charts meets fundamental balance sheet analysis**
+
+A comprehensive Streamlit application that bridges the gap between technical and fundamental analysis by combining mplfinance candlestick visualizations with key balance sheet metrics.
+
+**Features:**
+
+- 🕯️ Professional mplfinance OHLC candlestick charts
+- 📋 Balance sheet metrics table (Current Ratio, Quick Ratio, Debt-to-Equity, etc.)
+- 📈 Interactive date range selection
+- 💹 Real-time NSE stock data via yfinance
+- 🔍 Combined technical and fundamental view
+- ⚡ Clean, educational interface
+- 📊 Comprehensive financial health indicators
+
+**Perfect for:**
+
+- Traders combining technical and fundamental analysis
+- Financial analysts evaluating company health
+- Investors making informed decisions
+- Students learning integrated analysis
+
+**Tech Stack:** Streamlit • mplfinance • yfinance • pandas
+
+**Get Started:**
+
+```bash
+cd ohlc-fundamentals-plot
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+**Documentation:** See [OHLC Fundamentals Plot README](./ohlc-fundamentals-plot/README.md) for detailed usage guide and understanding balance sheet metrics.
+
+**Educational Disclaimer:** This tool is for educational purposes only. Not financial advice. Always consult a qualified financial advisor before making investment decisions.
+
+---
 **Start your financial analysis journey today!**
 
 ---
