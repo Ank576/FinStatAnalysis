@@ -1,0 +1,36 @@
+name: Create sub-app folder
+
+on:
+  workflow_dispatch:
+    inputs:
+      folder_name:
+        description: "New app folder name (e.g. dcf-valuation-tool)"
+        required: true
+      app_title:
+        description: "App title for README/app.py (e.g. DCF Valuation Tool)"
+        required: true
+
+jobs:
+  create-folder:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install PyGithub
+
+      - name: Run folder-creation agent
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO_NAME: Ank576/FinStatAnalysis
+        run: |
+          python .github/scripts/create_sub_app.py \
+            "${{ github.event.inputs.folder_name }}" \
+            "${{ github.event.inputs.app_title }}"
